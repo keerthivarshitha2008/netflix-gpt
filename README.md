@@ -1,6 +1,20 @@
 # NAMASTE NetflixGPT:-
 - create-react-app 
-- configured tailwindcss 
+- configured tailwindcss
+- Header
+- Routing of App
+- Login form
+- Sigu up form
+- Form validations
+- useRef Hook
+- Firebase setup
+- Deploying our app to production
+- create signUp user Account  
+- Implement sign In user Api
+- created redux Store with userSlice
+- implemented sign out form
+- updated profile
+
 
 # features:-
 - login/signUp

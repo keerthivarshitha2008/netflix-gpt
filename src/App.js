@@ -1,8 +1,15 @@
 import './App.css';
+import Body from './components/Body';
+import { Provider } from 'react-redux';
+import appStore from './utils/appStore';
 
 function App() {
   return (
-    <div className="font-bold text-green-800 text-3xl">welcome to NetflixGPT project</div>
+    <div>
+      <Provider store={appStore}>
+        <Body />
+      </Provider>
+    </div>
   );
 }
 
